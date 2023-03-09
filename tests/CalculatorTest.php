@@ -1,6 +1,8 @@
 <?php 
 // use app\Calculator;
-// require('Calculator');
+require_once('vendor/autoload.php');
+require_once('./app/Calculator.php');
+use app\Calculator;
 
 class CalculatorTest extends PHPUnit\Framework\TestCase {
     public function testAdd() {
